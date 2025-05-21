@@ -1,14 +1,68 @@
 
-const Footer = () => {
+interface FooterProps {
+  language: "en" | "ko";
+}
+
+const Footer = ({ language }: FooterProps) => {
+  const translations = {
+    en: {
+      companyInfo: "Designing a routine for your dog three times a day with human-grade ingredients.",
+      quickLinks: "Quick Links",
+      brandStory: "Brand Story",
+      routineKit: "Routine Kit",
+      ingredients: "Ingredients",
+      reviews: "Reviews",
+      faq: "FAQ",
+      support: "Customer Support",
+      contact: "Contact Us",
+      shipping: "Shipping Policy",
+      returns: "Returns & Refunds",
+      subscriptionFaq: "Subscription FAQ",
+      stayUpdated: "Stay Updated",
+      subscribeText: "Subscribe to our newsletter for new products, events, and special offers.",
+      emailPlaceholder: "Your email",
+      join: "Join",
+      rights: "All rights reserved.",
+      privacy: "Privacy Policy",
+      terms: "Terms of Service",
+      cookies: "Cookies Policy"
+    },
+    ko: {
+      companyInfo: "사람이 먹을 수 있는 재료로 하루 세 번 강아지를 위한 루틴을 디자인합니다.",
+      quickLinks: "빠른 링크",
+      brandStory: "브랜드 스토리",
+      routineKit: "루틴 키트",
+      ingredients: "성분",
+      reviews: "리뷰",
+      faq: "FAQ",
+      support: "고객 지원",
+      contact: "문의하기",
+      shipping: "배송 정책",
+      returns: "반품 및 환불",
+      subscriptionFaq: "구독 FAQ",
+      stayUpdated: "소식 받기",
+      subscribeText: "새로운 제품, 이벤트 및 특별 혜택에 대한 뉴스레터를 구독하세요.",
+      emailPlaceholder: "이메일 주소",
+      join: "구독",
+      rights: "모든 권리 보유.",
+      privacy: "개인정보 처리방침",
+      terms: "이용약관",
+      cookies: "쿠키 정책"
+    }
+  };
+
+  const t = translations[language];
+  const brandName = language === "en" ? "Nutty" : "너티";
+
   return (
     <footer className="bg-nutty-foreground text-white">
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Nutty</h3>
+            <h3 className="text-xl font-bold mb-4">{brandName}</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Designing a routine for your dog three times a day with human-grade ingredients.
+              {t.companyInfo}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -33,55 +87,55 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-medium mb-4">Quick Links</h3>
+            <h3 className="text-lg font-medium mb-4">{t.quickLinks}</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#brand-story" className="text-gray-300 hover:text-white transition-colors">Brand Story</a></li>
-              <li><a href="#routine-kit" className="text-gray-300 hover:text-white transition-colors">Routine Kit</a></li>
-              <li><a href="#transparency" className="text-gray-300 hover:text-white transition-colors">Ingredients</a></li>
-              <li><a href="#reviews" className="text-gray-300 hover:text-white transition-colors">Reviews</a></li>
-              <li><a href="#faq" className="text-gray-300 hover:text-white transition-colors">FAQ</a></li>
+              <li><a href="#brand-story" className="text-gray-300 hover:text-white transition-colors">{t.brandStory}</a></li>
+              <li><a href="#routine-kit" className="text-gray-300 hover:text-white transition-colors">{t.routineKit}</a></li>
+              <li><a href="#transparency" className="text-gray-300 hover:text-white transition-colors">{t.ingredients}</a></li>
+              <li><a href="#reviews" className="text-gray-300 hover:text-white transition-colors">{t.reviews}</a></li>
+              <li><a href="#faq" className="text-gray-300 hover:text-white transition-colors">{t.faq}</a></li>
             </ul>
           </div>
           
           {/* Customer Support */}
           <div>
-            <h3 className="text-lg font-medium mb-4">Customer Support</h3>
+            <h3 className="text-lg font-medium mb-4">{t.support}</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Shipping Policy</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Returns & Refunds</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Subscription FAQ</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">{t.contact}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">{t.shipping}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">{t.returns}</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">{t.subscriptionFaq}</a></li>
             </ul>
           </div>
           
           {/* Newsletter */}
           <div>
-            <h3 className="text-lg font-medium mb-4">Stay Updated</h3>
+            <h3 className="text-lg font-medium mb-4">{t.stayUpdated}</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Subscribe to our newsletter for new products, events, and special offers.
+              {t.subscribeText}
             </p>
             <form className="flex">
               <input
                 type="email"
-                placeholder="Your email"
+                placeholder={t.emailPlaceholder}
                 className="bg-gray-800 text-white px-4 py-2 rounded-l-lg w-full focus:outline-none"
               />
               <button
                 type="submit"
                 className="bg-nutty-accent text-white px-4 py-2 rounded-r-lg hover:bg-opacity-90"
               >
-                Join
+                {t.join}
               </button>
             </form>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} Nutty. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} {brandName}. {t.rights}</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-white transition-colors">Cookies Policy</a>
+            <a href="#" className="hover:text-white transition-colors">{t.privacy}</a>
+            <a href="#" className="hover:text-white transition-colors">{t.terms}</a>
+            <a href="#" className="hover:text-white transition-colors">{t.cookies}</a>
           </div>
         </div>
       </div>
