@@ -7,10 +7,10 @@ const RoutineKit = () => {
     <section id="routine-kit" className="section-padding bg-nutty-light/30">
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-nutty-foreground mb-6">The Nutty Routine Kit</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-nutty-foreground mb-6">너티 루틴 키트</h2>
           <p className="text-lg text-gray-700">
-            Three carefully designed routines for your dog throughout the day, 
-            made with human-grade ingredients for optimal health and happiness.
+            하루 종일 강아지를 위해 세심하게 설계된 세 가지 루틴, 
+            최적의 건강과 행복을 위한 사람이 먹을 수 있는 재료로 만들어졌습니다.
           </p>
         </div>
 
@@ -21,27 +21,27 @@ const RoutineKit = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-amber-100 text-amber-500">
                 <Clock size={24} />
               </div>
-              <h3 className="text-xl font-bold">Morning Routine</h3>
+              <h3 className="text-xl font-bold">아침 루틴</h3>
             </div>
             <p className="text-gray-700 mb-6">
-              Start the day with energy and vitality. Our morning treats contain ingredients that support alertness and activity.
+              에너지와 활력으로 하루를 시작하세요. 우리의 아침 간식은 각성과 활동을 지원하는 성분을 포함합니다.
             </p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-amber-500"></span>
-                Rich in B vitamins for energy
+                에너지를 위한 B 비타민 풍부
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-amber-500"></span>
-                Contains natural proteins
+                천연 단백질 함유
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-amber-500"></span>
-                Perfect for post-walk rewards
+                산책 후 보상으로 완벽
               </li>
             </ul>
             <div className="aspect-video rounded-lg overflow-hidden bg-amber-50 mb-4">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1535268647677-300dbf3d78d1')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1534361960057-19889db9621e')] bg-cover bg-center"></div>
             </div>
           </div>
 
@@ -51,27 +51,27 @@ const RoutineKit = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-nutty-secondary/50 text-nutty-accent">
                 <Clock size={24} />
               </div>
-              <h3 className="text-xl font-bold">Afternoon Routine</h3>
+              <h3 className="text-xl font-bold">오후 루틴</h3>
             </div>
             <p className="text-gray-700 mb-6">
-              Maintain steady energy through the day. The afternoon treats are balanced for sustained vitality and cognitive function.
+              하루 종일 안정적인 에너지를 유지하세요. 오후 간식은 지속적인 활력과 인지 기능을 위해 균형 잡힌 영양을 제공합니다.
             </p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-nutty-accent"></span>
-                Contains Omega-3 for cognitive health
+                인지 건강을 위한 오메가-3 함유
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-nutty-accent"></span>
-                Balanced carbohydrates for sustained energy
+                지속적인 에너지를 위한 균형 잡힌 탄수화물
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-nutty-accent"></span>
-                Ideal for training and mental stimulation
+                훈련과 정신 자극에 이상적
               </li>
             </ul>
             <div className="aspect-video rounded-lg overflow-hidden bg-nutty-light/50 mb-4">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1582562124811-c09040d0a901')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1546975490-e8b92a360b24')] bg-cover bg-center"></div>
             </div>
           </div>
 
@@ -81,27 +81,27 @@ const RoutineKit = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-100 text-blue-500">
                 <Clock size={24} />
               </div>
-              <h3 className="text-xl font-bold">Evening Routine</h3>
+              <h3 className="text-xl font-bold">저녁 루틴</h3>
             </div>
             <p className="text-gray-700 mb-6">
-              Wind down peacefully. Our evening treats promote relaxation and support restful sleep for your furry friend.
+              평화롭게 하루를 마무리하세요. 우리의 저녁 간식은 반려견의 휴식과 편안한 수면을 촉진합니다.
             </p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                Contains calming chamomile and lavender
+                진정 효과가 있는 카모마일과 라벤더 함유
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                L-tryptophan helps promote better sleep
+                L-트립토판이 더 나은 수면을 촉진
               </li>
               <li className="flex items-center gap-2 text-sm text-gray-600">
                 <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                Gentle digestion support overnight
+                밤 동안 부드러운 소화 지원
               </li>
             </ul>
             <div className="aspect-video rounded-lg overflow-hidden bg-blue-50 mb-4">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1501286353178-1ec871214838')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1544212575-6e8f6c902d64')] bg-cover bg-center"></div>
             </div>
           </div>
         </div>
@@ -110,9 +110,9 @@ const RoutineKit = () => {
         <div className="bg-white rounded-xl p-8 md:p-12 shadow-lg border border-nutty-muted/20 animate-fade-in">
           <div className="flex flex-col md:flex-row gap-8 items-center">
             <div className="w-full md:w-2/3">
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Try the 7-Day Nutty Trial Kit</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">7일 너티 체험 키트로 시작하세요</h3>
               <p className="text-gray-700 mb-6">
-                Experience the difference a proper routine makes. Our 7-day trial kit includes all three daily treats, letting you and your dog test the complete Nutty experience.
+                적절한 루틴이 만드는 차이를 경험해 보세요. 7일 체험 키트에는 세 가지 일일 간식이 모두 포함되어 있어 당신과 강아지가 완전한 너티 경험을 테스트할 수 있습니다.
               </p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
@@ -120,8 +120,8 @@ const RoutineKit = () => {
                     <Package size={18} />
                   </div>
                   <div>
-                    <strong className="block text-lg">Full 7-Day Supply</strong>
-                    <span className="text-gray-600">21 treats - one for each part of the daily routine for a full week</span>
+                    <strong className="block text-lg">7일 완전 공급</strong>
+                    <span className="text-gray-600">21개 간식 - 일주일 동안 매일 일상 루틴의 각 부분에 하나씩</span>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -129,25 +129,25 @@ const RoutineKit = () => {
                     <Calendar size={18} />
                   </div>
                   <div>
-                    <strong className="block text-lg">Easy Subscription</strong>
-                    <span className="text-gray-600">Convert to a regular subscription with special pricing after your trial</span>
+                    <strong className="block text-lg">간편한 구독</strong>
+                    <span className="text-gray-600">체험 후 특별 가격으로 정기 구독으로 전환</span>
                   </div>
                 </li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button className="bg-nutty-accent text-white hover:bg-nutty-accent/90 py-6 px-8 text-lg">
-                  Get Your 7-Day Trial Kit
+                  7일 체험 키트 받기
                 </Button>
                 <div className="flex items-center text-gray-500 text-sm">
                   <span className="line-through">₩35,000</span>
                   <span className="text-nutty-accent font-bold text-lg ml-2">₩24,500</span>
-                  <span className="ml-2">Trial Price</span>
+                  <span className="ml-2">체험 가격</span>
                 </div>
               </div>
             </div>
             <div className="w-full md:w-1/3">
               <div className="aspect-square rounded-xl overflow-hidden relative">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1721322800607-8c38375eef04')] bg-cover bg-center"></div>
+                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b')] bg-cover bg-center"></div>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ const RoutineKit = () => {
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>
               </svg>
-              All products are designed in consultation with a veterinarian
+              모든 제품은 수의사와 상담하여 설계되었습니다
             </p>
           </div>
         </div>
