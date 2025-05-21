@@ -48,7 +48,7 @@ const BrandStory = () => {
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2 animate-fade-in">
             <div className="aspect-video rounded-xl overflow-hidden relative">
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1583337130417-3346a1be7dee')] bg-cover bg-center"></div>
+              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1591946614720-90a587da4a36')] bg-cover bg-center"></div>
             </div>
           </div>
           

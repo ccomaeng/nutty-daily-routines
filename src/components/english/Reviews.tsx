@@ -14,7 +14,7 @@ const reviews = [
     dogName: "Coco",
     dogBreed: "Poodle",
     date: "2023-04-15",
-    image: "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
+    image: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const reviews = [
     dogName: "Barley",
     dogBreed: "Shiba Inu",
     date: "2023-05-22",
-    image: "https://images.unsplash.com/photo-1546975490-e8b92a360b24",
+    image: "https://images.unsplash.com/photo-1561037404-61cd46aa615b",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const reviews = [
     dogName: "Mango",
     dogBreed: "Welsh Corgi",
     date: "2023-06-10",
-    image: "https://images.unsplash.com/photo-1534361960057-19889db9621e",
+    image: "https://images.unsplash.com/photo-1546527868-ccb7ee7dfa6a",
   }
 ];
 
@@ -136,11 +136,16 @@ const Reviews = () => {
           </div>
           
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-            {[...Array(4)].map((_, i) => (
+            {[
+              "https://images.unsplash.com/photo-1625316708582-7c38734be31d",
+              "https://images.unsplash.com/photo-1552053831-71594a27632d",
+              "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8",
+              "https://images.unsplash.com/photo-1551717743-49959800b1f6"
+            ].map((image, i) => (
               <div key={i} className="aspect-square rounded-lg overflow-hidden">
                 <div 
                   className="h-full w-full bg-cover bg-center hover:scale-110 transition-transform duration-300" 
-                  style={{ backgroundImage: `url(${reviews[i % reviews.length].image})` }}
+                  style={{ backgroundImage: `url(${image})` }}
                 ></div>
               </div>
             ))}

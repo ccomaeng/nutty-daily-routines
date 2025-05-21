@@ -41,7 +41,7 @@ const RoutineKit = () => {
               </li>
             </ul>
             <div className="aspect-video rounded-lg overflow-hidden bg-amber-50 mb-4">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1534361960057-19889db9621e')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1583511655826-05700d52f4d9')] bg-cover bg-center"></div>
             </div>
           </div>
 
@@ -71,7 +71,7 @@ const RoutineKit = () => {
               </li>
             </ul>
             <div className="aspect-video rounded-lg overflow-hidden bg-nutty-light/50 mb-4">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1546975490-e8b92a360b24')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1583512603784-a8e3ea8355b4')] bg-cover bg-center"></div>
             </div>
           </div>
 
@@ -101,7 +101,7 @@ const RoutineKit = () => {
               </li>
             </ul>
             <div className="aspect-video rounded-lg overflow-hidden bg-blue-50 mb-4">
-              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1544212575-6e8f6c902d64')] bg-cover bg-center"></div>
+              <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1560807707-8cc77767d783')] bg-cover bg-center"></div>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@ const RoutineKit = () => {
             </div>
             <div className="w-full md:w-1/3">
               <div className="aspect-square rounded-xl overflow-hidden relative">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b')] bg-cover bg-center"></div>
+                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1607923662327-3523fa7b1d3c')] bg-cover bg-center"></div>
               </div>
             </div>
           </div>
