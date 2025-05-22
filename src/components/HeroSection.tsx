@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
         
         <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative h-64 md:h-80 lg:h-[500px] animate-fade-in">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1568640347023-a616a30bc3bd')] bg-cover bg-center rounded-2xl shadow-lg transform lg:translate-x-12"></div>
+          <div className="absolute inset-0 bg-[url('/lovable-uploads/6219d106-1d51-447c-b393-1a3384c1ea14.png')] bg-cover bg-center rounded-2xl shadow-lg transform lg:translate-x-12"></div>
         </div>
       </div>
 

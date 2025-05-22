@@ -14,7 +14,7 @@ const reviews = [
     dogName: "코코",
     dogBreed: "푸들",
     date: "2023-04-15",
-    image: "https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf",
+    image: "/lovable-uploads/040196c7-6d9f-4f2f-bb2f-66cfca88baee.png",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const reviews = [
     dogName: "보리",
     dogBreed: "시바견",
     date: "2023-05-22",
-    image: "https://images.unsplash.com/photo-1588943211346-0908a1fb0b01",
+    image: "/lovable-uploads/b640395f-3053-4005-8901-86b67f438ef6.png",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const reviews = [
     dogName: "망고",
     dogBreed: "웰시코기",
     date: "2023-06-10",
-    image: "https://images.unsplash.com/photo-1517849845537-4d257902454a",
+    image: "/lovable-uploads/4112865f-9d5c-4265-8128-085da9413749.png",
   }
 ];
 
@@ -137,10 +137,10 @@ const Reviews = () => {
           
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {[
-              "https://images.unsplash.com/photo-1534361960057-19889db9621e",
-              "https://images.unsplash.com/photo-1560743641-3914f2c45636",
-              "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6",
-              "https://images.unsplash.com/photo-1583337130417-3346a1be7dee"
+              "/lovable-uploads/0044d638-1e76-40f8-b854-b77e36fcb8ac.png",
+              "/lovable-uploads/78b00355-6b14-417f-9711-75ba56f1609b.png",
+              "/lovable-uploads/edb95c27-24ca-48c7-9baa-174b49088146.png",
+              "/lovable-uploads/2559ae08-7b71-4f34-915f-68b192eace88.png"
             ].map((image, i) => (
               <div key={i} className="aspect-square rounded-lg overflow-hidden">
                 <div 

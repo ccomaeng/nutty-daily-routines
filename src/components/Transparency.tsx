@@ -17,7 +17,7 @@ const Transparency = () => {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="w-full md:w-1/2 animate-fade-in">
             <div className="aspect-square max-w-md mx-auto rounded-full overflow-hidden border-8 border-nutty-light relative">
-              <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576201836106-db1758fd1c97')] bg-cover bg-center"></div>
+              <div className="absolute inset-0 bg-[url('/lovable-uploads/78b00355-6b14-417f-9711-75ba56f1609b.png')] bg-cover bg-center"></div>
             </div>
           </div>
 
